@@ -1,5 +1,4 @@
-<--
-COVID-19 & Census Tableau Project
+COVID-19 & Census Data Analysis Tableau Project
 
 PROJECT: COVID-19 & Canadian Census — Data Analysis & Visualization
 
@@ -77,7 +76,15 @@ Variables used:
 Province
 Sum of Deaths (aggregated)
 
-![Viz 1 — COVID Deaths Treemap](screenshots/viz1_covid_deaths_treemap.png)
+
+
+
+
+
+<img width="1434" height="840" alt="viz1_covid_deaths_treemap" src="https://github.com/user-attachments/assets/8bfdba9e-9a49-458c-a6b4-148b2546006f" />
+
+
+
 
 Key insight:
 
@@ -95,7 +102,13 @@ Variables used:
 - Province
 - Household size categories: 1 Person, 2 Persons, 3 Persons, 4 Persons, 5+ Persons
 
-![Viz 2 — Household Families Bar Chart](screenshots/viz2_household_families_bar.png)
+
+
+
+<img width="1508" height="841" alt="viz2_household_families_bar" src="https://github.com/user-attachments/assets/e6b5fb30-7d4e-4c71-8a0f-fffe622c24a5" />
+
+
+
 
 Key insight:
 
@@ -121,7 +134,12 @@ Calculated field:
 Death per 1-Person % = SUM([Death]) / SUM([1 Person]) * 100
 
 
-![Viz 3 — Death Rate Bubble Chart](screenshots/viz3_death_rate_bubble.png)
+
+
+
+<img width="1004" height="895" alt="viz3_death_rate_bubble" src="https://github.com/user-attachments/assets/f0ca1184-95a3-4407-8e43-48694cc15314" />
+
+
 
 
 Key insight:
@@ -130,12 +148,11 @@ ratio, suggesting that household density and living arrangements interact with C
 provinces with fewer single-person households show disproportionately high ratios.
 
 
-## 👤 About
+About
 
 This project was completed as part of a post-graduate Data Analytics Certificate program. It demonstrates end-to-end data
 analytics skills including data extraction (R), ETL and data wrangling (Tableau), multi-dataset joining, calculated field
 creation, and storytelling through visualization.
 
--->
 Skills showcased:
 R · Tableau · Data Cleaning · ETL · Data Joining · Calculated Fields · Statistical Aggregation · Data Visualization
