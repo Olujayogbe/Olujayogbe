@@ -1,4 +1,6 @@
-COVID-19 & Census Data Analysis Tableau Project
+## COVID-19 & Canadian Census Data Analysis Tableau Project
+
+---
 
 PROJECT: COVID-19 & Canadian Census — Data Analysis & Visualization
 
@@ -9,14 +11,14 @@ Data extraction with R, ETL in Tableau, data joining,
 calculated fields, multi-dataset visualization
 
 
-Project Overview
+## Project Overview
 
 This project explores the relationship between COVID-19 case data and Canadian demographic data from Statistics Canada. 
 Using R for data retrieval, Tableau Prep and Tableau Destop for all cleaning, transformation, and visualization, three distinct 
 dashboards were built to answer specific analytical questions about the pandemic's impact across Canadian provinces and territories.
 
 
-Datasets
+## Datasets
 
 Dataset 1 — COVID-19 (Rami Krispin, GitHub)
 The [coronavirus tidy dataset](https://github.com/RamiKrispin/coronavirus) 
@@ -40,7 +42,7 @@ The raw English CSV is not in tidy format — parameters were unpivoted and tran
 usable columns within Tableau before analysis.
 
 
-Methodology
+## Methodology
 
 Step 1 — Data Extraction (R)
 R Studio was used solely to retrieve the COVID-19 dataset from GitHub and export a Canada-filtered CSV. 
@@ -65,9 +67,10 @@ The COVID and Census datasets were joined using Province as the relational key. 
 Death per 1-Person Household was created to enable the cross-dataset analysis in Viz 3.
 
 
-Research Questions / Analysis / Visualizations
+## Research Questions / Analysis / Visualizations
 
 Viz 1 — Number of COVID Deaths in Canadian Provinces
+
 Chart type: Treemap  
 Dataset: COVID-19 (deaths only)  
 Question 1: Which Canadian provinces recorded the highest number of COVID-19 deaths?
@@ -94,6 +97,7 @@ reflecting both smaller populations and geographic isolation.
 
 
 Viz 2 — Number of Families in Private Households Across Canadian Provinces
+
 Chart type: Grouped Bar Chart  
 Dataset: Statistics Canada Census Profile  
 Question 2: How are families distributed by household size across Canadian provinces and territories?
@@ -118,10 +122,11 @@ show proportionally more 1- and 2-person households, reflecting both population 
 
 
 Viz 3 — COVID-19 Death Rate as a Percentage of 1-Person Households Across Canadian Provinces
+
 Chart type: Bubble / Scatter Chart  
 Dataset: Joined COVID-19 + Statistics Canada Census  
 Question 3: Is there a relationship between COVID-19 death totals and the proportion of 1-person households across Canadian
-provinces?*
+provinces?
 
 Variables used:
 - Province (color)
@@ -148,11 +153,11 @@ ratio, suggesting that household density and living arrangements interact with C
 provinces with fewer single-person households show disproportionately high ratios.
 
 
-About
+## About
 
 This project was completed as part of a post-graduate Data Analytics Certificate program. It demonstrates end-to-end data
 analytics skills including data extraction (R), ETL and data wrangling (Tableau), multi-dataset joining, calculated field
 creation, and storytelling through visualization.
 
-Skills showcased:
+## Skills showcased:
 R · Tableau · Data Cleaning · ETL · Data Joining · Calculated Fields · Statistical Aggregation · Data Visualization
