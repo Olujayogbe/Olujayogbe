@@ -1,7 +1,6 @@
 ## COVID-19 & Canadian Census Data Analysis Tableau Project
 
 ---
-
 PROJECT: COVID-19 & Canadian Census — Data Analysis & Visualization
 
 Tools used: 
@@ -153,11 +152,24 @@ ratio, suggesting that household density and living arrangements interact with C
 provinces with fewer single-person households show disproportionately high ratios.
 
 
-## About
+Dashboard
+
+
+<img width="977" height="782" alt="Dashboard" src="https://github.com/user-attachments/assets/f18a981b-5ee5-42ee-a7ba-6a1670d64699" />
+
+
+
+
+
+## Conclusion
 
 This project was completed as part of a post-graduate Data Analytics Certificate program. It demonstrates end-to-end data
 analytics skills including data extraction (R), ETL and data wrangling (Tableau), multi-dataset joining, calculated field
 creation, and storytelling through visualization.
+
+The findings reinforce that effective data storytelling requires both technical execution and interpretive judgment. 
+Numbers alone do not tell a story; the analyst's job is to ask the right questions, build the right metrics, and present findings 
+in a way that is honest, clear, and actionable.
 
 ## Skills showcased:
 R · Tableau · Data Cleaning · ETL · Data Joining · Calculated Fields · Statistical Aggregation · Data Visualization
